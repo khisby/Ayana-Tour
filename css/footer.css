@@ -1,0 +1,52 @@
+#footer{
+	background: black;
+	clear: both;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#footer > div{
+	margin-bottom: 20px;
+}
+
+#footer > div:last-child{
+	margin-bottom: 0px;
+}
+
+#footer > div > ul{
+	text-align: center;
+}
+
+#footer > div > ul > li{
+	display: inline-block;
+	color: white;
+}
+
+#footer > div > ul > li  > a > img{
+	max-height: 50px;
+	margin-right: 20px;
+	-moz-transition: 2s ease;
+	-webkit-transition: 2s ease;
+	transition: 2s ease;
+	outline: none;
+}
+
+#footer > div > ul > li  > a:hover > img{
+	-moz-transform: rotateY(-360deg);
+	-webkit-transform: rotateY(-360deg);
+	transform: rotateY(-360deg);
+}
+
+#footer > div > ul > li > a{
+	color: white;
+	text-decoration: none;
+	outline: none;
+}
+
+#footer > div > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+#footer > div:last-child > ul > li > a{
+	margin-right: 5px;
+}

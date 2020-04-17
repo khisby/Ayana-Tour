@@ -1,0 +1,61 @@
+#frm{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#frm > div{
+	clear: both;
+	width: 100%;
+}
+#frm  > div > label{
+	float: left;
+	padding: 20px;
+}
+
+#frm  > div >  div{
+	float: right;
+	padding: 20px;
+}
+
+#frm  > div > div  > input,#frm  > div > div  > textarea,#frm  > div > div  > select{
+	width: 300px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+#frm  > div > div  > textarea{
+	min-height: 150px;
+}
+
+#frm  > div > div  > select > option{
+	padding: 8px;
+}
+
+.tbl{
+	width: 100%;
+}
+
+.tbl > tbody > tr:first-child > td{
+	background: #ffa500;
+	color: white;
+	font-size: 1.1em;
+}
+.tbl > tbody > tr> td{
+	text-align: center;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.tbl > tbody > tr:nth-child(even)> td{
+	background: rgba(0,0,0,0.7);
+	color: white;
+}
+
+.tbl > tbody > tr:nth-child(even)> td > a{
+	color: white;
+	margin-right: 5px;
+}
+
+.komentar_tbl{
+	margin-bottom: 20px;
+	font-size: 0.9em;
+}

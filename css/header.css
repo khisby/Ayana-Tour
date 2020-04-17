@@ -1,0 +1,108 @@
+#logo{	
+	max-width: 130px;
+	max-height: 75px;
+	margin-right: 10px;
+	float: left;
+	background: -moz-linear-gradient(-45deg, transparent 0%,transparent 45%, #ffffff 50%, transparent 55%,transparent 100%) no-repeat;
+	background: -webkit-linear-gradient(-45deg, transparent 0%,transparent 45%, #ffffff 50%, transparent 55%,transparent 100%) no-repeat;
+	background: linear-gradient(-45deg, transparent 0%,transparent 45%, #ffffff 50%, transparent 55%,transparent 100%) no-repeat;
+	background-position: 0px;
+	background-size: 100%;
+	animation: logo 3s ease infinite;
+}
+
+@keyframes logo{
+	0%{
+		background-position: -200px;
+	}
+	50%{
+		background-position: 200px;
+	}
+	100%{
+		background-position: 200px;
+	}
+}
+
+#logo > a > img {
+	width: 100%;
+	height: 100%;
+}
+
+#header{
+	background: black;
+	min-height: 50px;
+	padding: 20px 20px 20px 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+#header > p{
+	float: right;
+	color: white;
+	font-size: 0.8em;
+}
+
+#header > p > span > a{
+	color: white;
+}
+
+#header > p > span:first-child{
+	margin-right: 5px;
+}
+
+#header > ul{
+	float: left;
+	margin-top: 30px;
+	
+}
+
+#header >  form{
+	position: absolute;
+	right: 20px;top:50px;
+	min-width: 100px;
+	background: white;
+	padding: 2px;
+}
+
+#header >  form > input[type="text"]{
+	width: 150px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	font-size: 0.7em;
+}
+
+#header > form > input[type="submit"]{
+	background: url('../admin/img/material/ic_cari.png') no-repeat;
+	width: 30px;
+	height: 23px;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	background-size: 69%;
+	background-position: center;
+}
+
+#header > ul > li{
+	display: inline-block;
+}
+
+#header > ul > li > a{
+	padding: 10px 3px;
+	color: white;
+	text-decoration: none;
+	transition: 0.5s ease;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#header > ul > li > a:hover{
+	padding: 2px 5px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}

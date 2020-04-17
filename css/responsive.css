@@ -1,0 +1,89 @@
+@media (max-width:900px){
+	#header >  form > input[type="text"]{
+		width: 80px;
+	}
+	
+	#header > ul{
+		margin-top: 30px;
+		font-size: 0.8em;
+	}
+	#header > ul > li > a{
+		font-size: 0.9em;
+	}
+}	
+@media (max-width:600px){
+
+	#header >  form > input[type="text"]{
+		width: 80px;
+	}
+	
+	#header > ul > li > a{
+		color: white;
+		background: transparent;
+		padding: 0;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+		
+	#header > ul > li > a:hover{
+		color: black;
+		background: white;
+		padding: 0;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+	
+	#banner{
+		min-height: 200px;
+	}
+	
+	#content{
+		width: 100%;
+	}
+}
+
+@media (max-width:700px){
+	#header  > form{
+		display: none;
+	}
+	#ccl {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+		
+		-moz-column-gap: 10px;
+		-webkit-column-gap: 10px;
+		column-gap: 10px;
+		margin-top: 10px;
+	}
+	#banner {
+		min-height: 300px;
+	}
+}
+
+@media (max-width:500px){
+	#banner{
+		min-height: 200px;
+	}
+}
+
+@media (max-width:350px){
+
+	#header > p{
+		font-size: 0.5em;
+	}
+	#ccl {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		
+		-moz-column-gap: 10px;
+		-webkit-column-gap: 10px;
+		column-gap: 10px;
+		margin-top: 10px;
+	}
+	
+	#banner{
+		min-height: 100px;
+	}
+}
